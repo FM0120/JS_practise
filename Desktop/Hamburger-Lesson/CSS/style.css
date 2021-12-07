@@ -1,0 +1,138 @@
+/* @charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+.box {
+  height: 300px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
+}
+/* ---------------------------- */
+/* ---- ハンバーガーアイコン ---- */
+/* ---------------------------- */
+/* #hm-icon {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 10;
+}
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 44px;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  border-radius: 4px;
+}
+.menu-trigger span:nth-child(1) {
+  top: 0;
+}
+.menu-trigger span:nth-child(2) {
+  top: 20px;
+}
+.menu-trigger span:nth-child(3) {
+  bottom: 0;
+}
+.menu-trigger.active span:nth-child(1) {
+  -webkit-transform: translateY(20px) rotate(-45deg);
+  transform: translateY(20px) rotate(-45deg);
+  background-color: #fff;
+}
+.menu-trigger.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-trigger.active span:nth-child(3) {
+  -webkit-transform: translateY(-20px) rotate(45deg);
+  transform: translateY(-20px) rotate(45deg);
+  background-color: #fff;
+}
+/* ------------------------ */
+/* ------ spメニュー ------ */
+/* ------------------------ */
+#sp-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  min-height: 100%;
+  display: none;
+  z-index: 9;
+}
+#sp-menu li {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#sp-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+
+
+/* text-alignプロパティは、文字や画像に対して、水平方向の揃え方を指定するプロパティです。
+例えば、文字を左や右に寄せたり、画像を中央に寄せたりする時に使います。 */
+
+/* z-indexとはz-indexとはボックスの重なり順序を指定するプロパティです。
+以下の値で指定します。
+Auto（初期値）
+親要素と同じ階層に表示されます。
+数値
+
+重なりの順序を数値で指定します。0を基準として、値が大きいものほど前面（手前）に表示されます。
+positionプロパティにabsoluteやrelative、fixedが指定された要素（＝ポジショニングされた要素）でのみ有効です。
+z-indexが指定されていない場合など、同じ階層の要素では基本的にソース上で後に書かれた要素が前面へ表示されます。
+※なお、同じ階層でfloatの要素は他の要素より前面へ、ポジショニングされた要素はそれより前面へ、z-indexが0以上の要素はさらに前面へ表示されます。
+z-indexに数値が指定された要素は、子孫要素をグループ化した階層の基準点となります（0を指定した場合でも）。
+要素自体のz-indexが大きくても、階層グループのz-indexが小さい場合は後ろに表示されます。この階層グループはスタッキング文脈、
+スタッキングコンテキストと呼ばれています。 */
+
+/* border-radius は CSS のプロパティで、要素の境界の外側の角を丸めます。
+ 1 つの半径を設定すると円の角になり、2 つの半径を設定すると楕円の角になります。
+ https://developer.mozilla.org/ja/docs/Web/CSS/border-radius */
+
+ /* position: relative、「position」という要素の位置を決めるプロパティ
+ https://uxmilk.jp/63409 */
+ /* https://saruwakakun.com/html-css/basic/relative-absolute-fixed#section1 */
+ /* https://web-camp.io/magazine/archives/28149 */
+
+ /* nth-childとは
+nth-childはセレクタに追加して条件を指定する擬似クラスのひとつで、
+子要素のn番目(nth)にスタイルを適用させることができます。
+多数の項目がある表で、交互に背景色を設定し見やすくしたい時などに役立ちます */
+/* https://techacademy.jp/magazine/8651 */
+
+/* transformとは? */
+/* 「transformプロパティ」はCSS3で追加された新しいプロパティです。これを使うことで、要素に動きをつけることができます。
+用意されている効果には、移動、回転、伸縮、傾斜の4つがあり、2次元的な動きだけでなく、3次元的動きも可能にしていることが特徴です。
+似たCSSプロパティに「transition」がありますが、これは2点間の時間的な変化を主に表現していました。これに対して「transform」
+は更に要素そのものの形や大きさを変化させたりする効果があります。基本的にはこの二つは一緒に使うケースもあり、
+「要素に動きをつける」という意味では、共に知っておいたほうが良いプロパティです。 */
+/* https://creive.me/archives/16145/ */
+/* https://ics.media/entry/210311/ */
+
+/* translateY()
+translateX() は CSS の関数で、要素を二次元平面上の水平方向で再配置します。結果は <transform-function> データ型になります。 */
+/* https://developer.mozilla.org/ja/docs/Web/CSS/transform-function/translateY() */
